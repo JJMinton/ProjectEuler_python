@@ -3,7 +3,7 @@
 """problem1.py: solution to Project Euler Problem 1. 'projecteuler.net/problem=1'"""
 
 ___author___="Jeremy Minton"
-___status___="Draft"
+___status___="Passed"
 
 multiples = [3,5]
 upperLimit = 1000;
