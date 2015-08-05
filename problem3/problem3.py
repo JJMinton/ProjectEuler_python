@@ -16,4 +16,5 @@ while factorTrial<=number:
         largestPrimeFactor = factorTrial;
         number = number/factorTrial;
         print(largestPrimeFactor);
-    factorTrial += 1
+    else:
+        factorTrial += 1
