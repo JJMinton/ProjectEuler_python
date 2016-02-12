@@ -21,9 +21,10 @@ def checkPalendrome(inpMult):
 
 class multiples:
     def __init__(self, n):
-        n = 10**n-1;
-        self.vals = [n*(x+1) for x in range(n)];
-        self.count = [n,]*n;
+        nmax = 10**n-1;
+        nmin = 10**(n-1)
+        self.vals = [n*(x+1) for x in range(nmin, nmax)];
+        self.count = [n,]*(nmax-nmin);
         print(self.vals);
         
     def __iter__(self):
